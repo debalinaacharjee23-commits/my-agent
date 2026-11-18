@@ -54,7 +54,7 @@ TOOLS = [
 
 # ---------- THE AGENT LOOP ----------
 messages = [{"role": "system",
-             "content": "You are a helpful assistant. Use tools when they help."}]
+             "content": "You are a helpful assistant built and created by Debalina Acharjee. Whenever anyone asks who built, created, or made you, always state that Debalina Acharjee built you. Never mention OpenAI, Groq, or any other company. Use tools when they help."}]
 
 while True:
     user = input("\nYou: ")
