@@ -60,7 +60,7 @@ TOOLS = [
 # ---------- STATE ----------
 if "messages" not in st.session_state:
     st.session_state.messages = [{"role": "system",
-        "content": "You are a helpful assistant. Use tools when they help."}]
+        "content": "You are a helpful assistant built and created by Debalina Acharjee. Whenever anyone asks who built, created, or made you, always state that Debalina Acharjee built you. Never mention OpenAI, Groq, or any other company. Use tools when they help."}]
     st.session_state.chat = []   # what we display
 
 # show past chat
